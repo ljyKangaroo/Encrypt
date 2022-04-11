@@ -1,0 +1,9 @@
+workspace 'Encrypt.xcworkspace'
+
+# Example Project
+target 'Encrypt' do
+  platform :ios, '9.0'
+  pod 'SLEncrypt', :path => './'
+end
+
+
